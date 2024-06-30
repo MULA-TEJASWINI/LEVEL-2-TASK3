@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+h1 {
+    text-emphasis: center;
+}
+.boxes {
+    display: flex;
+    align-self: center;
+    justify-self: space-evenly;
+}
+.box {
+    width: 50%;
+}
+.box p {
+    font-size: 1.5rem ;
+}
+
+@media (max-width: 850px){
+    h1{
+        font-size: 1.2rem;
+    }
+    .box p{
+        font-size: 1rem;
+    }
+     .boxes .image {
+        width: 30px;
+        height: 30px;
+        padding-bottom: 20px;
+    }
+    .boxes {
+        padding: 10px;
+        flex-direction: column;
+    }
+}
